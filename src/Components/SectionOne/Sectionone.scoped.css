@@ -1,3 +1,26 @@
+.mySwiper .swiper-button-prev {
+  color: rgba(0, 0, 0, 0.5607843137) !important;
+  padding: 30px !important;
+  background-color: #fff !important;
+  border-radius: 100%;
+}
+@media (max-width: 992px) {
+  .mySwiper .swiper-button-prev {
+    display: none !important;
+  }
+}
+.mySwiper .swiper-button-next {
+  color: rgba(0, 0, 0, 0.5607843137) !important;
+  padding: 30px !important;
+  background-color: #fff !important;
+  border-radius: 100%;
+}
+@media (max-width: 992px) {
+  .mySwiper .swiper-button-next {
+    display: none !important;
+  }
+}
+
 .swipeTwo2 {
   background-image: url(../../Assets/silde2.png) !important;
   width: 100%;

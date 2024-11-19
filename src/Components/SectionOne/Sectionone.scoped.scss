@@ -1,4 +1,30 @@
+.mySwiper{
+
+    .swiper-button-prev {
+       color: #0000008f !important;
+       padding: 30px !important;
+       background-color: #fff !important;
+       border-radius: 100%;
+       @media (max-width:992px){
+        display: none !important;
+       }
+      }
+      
+      .swiper-button-next {
+        color: #0000008f !important;
+        padding: 30px !important;
+        background-color: #fff !important;
+        border-radius: 100%;
+        @media (max-width:992px){
+            display: none !important;
+           }
+      }
+}
+
+
 .swipeTwo2{
+
+       
     @media (max-width:480px){
         .textOne{
             h1{

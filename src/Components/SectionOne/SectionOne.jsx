@@ -28,7 +28,7 @@ export default function SectionOne() {
       className="mySwiper"
 
       >
-        <SwiperSlide>
+        <SwiperSlide className='SwiperSlide'>
             <div className="swpieOne ">
                 <div className="container-lg">
                     <div className="row justify-content-start align-items-center ">
