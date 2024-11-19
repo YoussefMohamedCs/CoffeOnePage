@@ -1,0 +1,237 @@
+header {
+  background-color: rgba(9, 9, 9, 0.7294117647);
+  position: fixed;
+  width: 100%;
+  transition: all 0.5s;
+  z-index: 99999;
+  top: 0;
+}
+header .hmb {
+  color: #fff;
+  cursor: pointer;
+}
+@media (max-width: 2400px) {
+  header .hmb {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    padding: 20px 0px;
+    position: fixed !important;
+  }
+  header .hmb {
+    display: none;
+  }
+  header .hiddenInMediaQueryy {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    padding: 20px 0px;
+    position: fixed !important;
+  }
+  header .tt {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+  }
+  header .ppww {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    display: none;
+  }
+  header .hmb {
+    display: block !important;
+  }
+  header .opened {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    opacity: 1 !important;
+    transition: opacity 0.5s ease-in-out !important;
+    transition: all 0.5s !important;
+    background-color: #000;
+  }
+  header img {
+    max-width: 200px !important;
+  }
+  header .hiddenInMediaQueryy {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    padding: 20px 0px;
+    position: fixed !important;
+  }
+  header .hmb {
+    display: block !important;
+  }
+  header .tt {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+  }
+  header .ppww {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    display: none;
+  }
+  header .opened {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    opacity: 1 !important;
+    transition: opacity 0.5s ease-in-out !important;
+    transition: all 0.5s !important;
+    background-color: #000;
+  }
+  header img {
+    max-width: 200px !important;
+  }
+  header .hiddenInMediaQueryy {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  header {
+    padding: 20px 0px;
+    position: fixed !important;
+  }
+  header .hmb {
+    display: block !important;
+  }
+  header .tt {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+  }
+  header .ppww {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    display: none;
+  }
+  header .opened {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    opacity: 1 !important;
+    transition: opacity 0.5s ease-in-out !important;
+    transition: all 0.5s !important;
+    background-color: #000;
+  }
+  header img {
+    max-width: 200px !important;
+  }
+  header .hiddenInMediaQueryy {
+    display: none;
+  }
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  list-style: none;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0;
+  padding: 30px 10px;
+  color: white;
+}
+header ul .dropListParent {
+  position: relative;
+}
+header ul .dropListParent:hover .dropList {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: transform 0.5s;
+  transition: all 0.5s;
+}
+header ul .dropListParent .dropList {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  position: absolute;
+  background-color: #fff;
+  justify-content: start;
+  align-items: start;
+  top: 70px;
+  left: -10px;
+  border-style: solid;
+  border-width: 7px 0px 0px 0px;
+  border-color: #6f3727;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  margin: 0;
+  padding: 0;
+  border-radius: 10px 10px 0px 0px;
+}
+header ul .dropListParent .dropList li {
+  padding: 15px;
+  color: #000;
+  width: 100%;
+}
+header ul .dropListParent .dropList li:nth-child(1) {
+  border-bottom: 1px solid #000;
+}
+header ul .dropListParent .dropList li Link {
+  text-decoration: none !important;
+}
+header .btn-book {
+  background-color: #6f3727 !important;
+  color: #fff;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+}
+header .btn-book:hover {
+  transition: all 0.5s;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.Link {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.whenScroll {
+  background-color: #6f3727;
+  transition: all 0.5s;
+  top: -90px;
+  transform: translateY(90px);
+  transition: transform 0.5s;
+}
+.whenScroll .btn-book {
+  background-color: rgba(255, 255, 255, 0.3764705882) !important;
+}/*# sourceMappingURL=Header.scoped.css.map */

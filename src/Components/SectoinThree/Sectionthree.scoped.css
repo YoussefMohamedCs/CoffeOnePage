@@ -1,0 +1,117 @@
+.section-three {
+  padding: 80px 0px;
+}
+.section-three img {
+  max-width: 100%;
+}
+.section-three .images {
+  position: relative;
+}
+@media (max-width: 768px) {
+  .section-three .images .image-parent {
+    width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  .section-three .images .image-parent {
+    width: 100% !important;
+  }
+}
+@media (max-width: 480px) {
+  .section-three .images .image-parent {
+    width: 100% !important;
+  }
+}
+.section-three .images .image-child {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+@media (max-width: 992px) {
+  .section-three .images .image-child {
+    right: -20px !important;
+    bottom: -20px !important;
+    width: 160px;
+  }
+}
+@media (max-width: 768px) {
+  .section-three .images .image-child {
+    right: -10px !important;
+    bottom: -20px !important;
+    width: 160px;
+  }
+}
+@media (max-width: 600px) {
+  .section-three .images .image-child {
+    right: -10px !important;
+    bottom: -20px !important;
+    width: 160px;
+  }
+}
+@media (max-width: 480px) {
+  .section-three .images .image-child {
+    right: -10px !important;
+    bottom: -20px !important;
+    width: 160px;
+  }
+}
+@media (max-width: 320px) {
+  .section-three .images .image-child {
+    right: -10px !important;
+    bottom: -20px !important;
+    width: 160px;
+  }
+}
+.section-three .text .text-up {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-family: "Caudex", serif;
+  color: rgba(16, 16, 16, 0.8274509804);
+}
+.section-three .text .text-up img {
+  max-width: 100%;
+}
+.section-three .text .text-middle {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Caudex", serif;
+  margin-bottom: 20px;
+}
+@media (max-width: 320px) {
+  .section-three .text .text-middle {
+    font-size: 40px !important;
+  }
+}
+.section-three .text .text-before-last {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Caudex", serif;
+  color: rgba(16, 16, 16, 0.4941176471);
+  margin-bottom: 20px;
+}
+.section-three .text .last-text {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Caudex", serif;
+  color: rgba(16, 16, 16, 0.4941176471);
+  margin-bottom: 20px;
+}
+.section-three .VincentSmith {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.section-three .buttonLast {
+  padding: 20px 25px;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  background-color: #3f271e;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+.section-three .buttonLast:hover {
+  background-color: rgba(63, 39, 30, 0.937254902);
+}/*# sourceMappingURL=Sectionthree.scoped.css.map */

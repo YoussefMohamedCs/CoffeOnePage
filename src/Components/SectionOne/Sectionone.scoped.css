@@ -1,0 +1,153 @@
+.swipeTwo2 {
+  background-image: url(../../Assets/silde2.png) !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .swipeTwo2 .textOne h1 {
+    font-size: 30px !important;
+  }
+  .swipeTwo2 .buttons button:nth-child(1) {
+    font-size: 14px !important;
+  }
+  .swipeTwo2 .buttons button:nth-child(2) {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 320px) {
+  .swipeTwo2 .textOne h1 {
+    font-size: 30px !important;
+  }
+  .swipeTwo2 .buttons button:nth-child(1) {
+    font-size: 14px !important;
+  }
+  .swipeTwo2 .buttons button:nth-child(2) {
+    font-size: 14px !important;
+  }
+}
+.swipeTwo2 .textOne .p-bottpm {
+  color: rgba(255, 255, 255, 0.6588235294);
+}
+.swipeTwo2 .textOne p {
+  color: #fff;
+  line-height: 2;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.swipeTwo2 .textOne h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+  line-height: 1.4;
+}
+.swipeTwo2 .buttons {
+  display: flex;
+  gap: 20px !important;
+}
+.swipeTwo2 .buttons button:nth-child(1) {
+  background-color: #3f271e;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bolder;
+}
+.swipeTwo2 .buttons button:nth-child(1):hover {
+  background-color: rgba(63, 39, 30, 0.662745098);
+}
+.swipeTwo2 .buttons button:nth-child(2) {
+  background-color: #fff;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bolder;
+}
+.swipeTwo2 .buttons button:nth-child(2):hover {
+  background-color: rgba(255, 255, 255, 0.6862745098);
+}
+
+.swpieOne {
+  background-image: url(../../Assets/silde1.png);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .swpieOne .textOne h1 {
+    font-size: 30px !important;
+  }
+  .swpieOne .buttons button:nth-child(1) {
+    font-size: 14px !important;
+  }
+  .swpieOne .buttons button:nth-child(2) {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 320px) {
+  .swpieOne .textOne h1 {
+    font-size: 30px !important;
+  }
+  .swpieOne .buttons button:nth-child(1) {
+    font-size: 14px !important;
+  }
+  .swpieOne .buttons button:nth-child(2) {
+    font-size: 14px !important;
+  }
+}
+.swpieOne .textOne .p-bottpm {
+  color: rgba(255, 255, 255, 0.6588235294);
+}
+.swpieOne .textOne p {
+  color: #fff;
+  line-height: 2;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.swpieOne .textOne h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+  line-height: 1.4;
+}
+.swpieOne .buttons {
+  display: flex;
+  gap: 20px !important;
+}
+.swpieOne .buttons button:nth-child(1) {
+  background-color: #3f271e;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bolder;
+}
+.swpieOne .buttons button:nth-child(1):hover {
+  background-color: rgba(63, 39, 30, 0.662745098);
+}
+.swpieOne .buttons button:nth-child(2) {
+  background-color: #fff;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bolder;
+}
+.swpieOne .buttons button:nth-child(2):hover {
+  background-color: rgba(255, 255, 255, 0.6862745098);
+}/*# sourceMappingURL=Sectionone.scoped.css.map */

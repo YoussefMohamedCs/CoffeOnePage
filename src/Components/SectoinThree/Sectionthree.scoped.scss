@@ -1,0 +1,111 @@
+.section-three{
+    padding: 80px 0px;
+    img{
+       max-width: 100%;
+        // object-fit: cover;
+     
+    }
+   .images{
+    .image-parent{
+        @media (max-width:768px){
+            width: 100% !important;
+          }
+        @media (max-width:600px){
+            width: 100% !important;
+          }
+          @media (max-width:480px){
+            width: 100% !important;
+          }
+    }
+    position: relative;
+    .image-child{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        @media (max-width:992px){
+            right: -20px !important;
+            bottom: -20px !important;
+            width: 160px;
+        }
+        @media (max-width:768px){
+            right: -10px !important;
+            bottom: -20px !important;
+            width: 160px;
+        }
+        @media (max-width:600px){
+            right: -10px !important;
+            bottom: -20px !important;
+            width: 160px;
+        }
+        @media (max-width:480px){
+            right: -10px !important;
+            bottom: -20px !important;
+            width: 160px;
+        }
+        @media (max-width:320px){
+            right: -10px !important;
+            bottom: -20px !important;
+            width: 160px;
+        }
+    }
+   }
+    .text{
+    
+        .text-up{
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            font-family: 'Caudex', serif;
+            color: #101010d3;
+            img{
+                max-width: 100%;
+            }
+        
+
+        }
+        .text-middle{
+            font-size: 60px;
+            font-weight: 700;
+            font-family: 'Caudex', serif;
+            margin-bottom: 20px;
+            @media (max-width:320px){
+                font-size: 40px !important;
+            }
+        }
+        .text-before-last{
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Caudex', serif;
+            color: #1010107e;
+            margin-bottom: 20px;
+            
+        }
+        .last-text{
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Caudex', serif;
+            color: #1010107e;
+            margin-bottom: 20px;
+
+        }
+    }
+    .VincentSmith{
+        font-size: 25px;
+        font-weight: bolder;
+
+    }
+    .buttonLast{
+        padding: 20px 25px;
+        outline: 0;
+        border: 0;
+        color: #fff;
+        background-color: #3f271e;
+        border-radius: 20px;
+        font-weight: bolder;
+        &:hover{
+            background-color: #3f271eef;
+        }
+    }
+}

@@ -1,0 +1,206 @@
+.swipeTwo2{
+    @media (max-width:480px){
+        .textOne{
+            h1{
+                font-size: 30px !important;
+            }
+        }
+        .buttons{
+          button{
+            &:nth-child(1){
+                font-size: 14px !important;
+            }
+            &:nth-child(2){
+                font-size: 14px !important;
+            }
+          }
+        }
+
+    }
+    @media (max-width:320px){
+        .textOne{
+            h1{
+                font-size: 30px !important;
+            }
+        }
+        .buttons{
+          button{
+            &:nth-child(1){
+                font-size: 14px !important;
+            }
+            &:nth-child(2){
+                font-size: 14px !important;
+            }
+          }
+        }
+
+    }
+    background-image: url(../../Assets/silde2.png) !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .textOne{
+        .p-bottpm{
+            color: #ffffffa8;
+        }
+        p{
+            color: #fff;
+            line-height: 2;
+            font-family: "Faculty Glyphic", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            
+    
+        }
+        h1{
+            color: #fff;
+            margin-bottom: 30px;
+            font-family: "Faculty Glyphic", sans-serif;
+            font-weight: 400;
+            font-size: 60px;
+            font-style: normal;
+            line-height: 1.4;
+            
+        }
+    }
+    .buttons{
+        display: flex;
+        gap: 20px !important;
+      button{
+        &:nth-child(1){
+            background-color: #3f271e;
+            padding: 20px;
+            border: 0;
+            outline: 0;
+            border-radius:10px;
+            color: #fff;
+            font-weight: bolder;
+            &:hover{
+                background-color: #3f271ea9;
+            }
+    
+    
+        }
+        &:nth-child(2){
+            background-color: #fff;
+            padding: 20px;
+            border: 0;
+            outline: 0;
+            border-radius:10px;
+            color: #000;
+            font-weight: bolder;
+            &:hover{
+                background-color: #ffffffaf;
+            }
+    
+    
+        }
+      }
+    }
+
+}
+.swpieOne{
+    @media (max-width:480px){
+        .textOne{
+            h1{
+                font-size: 30px !important;
+            }
+        }
+        .buttons{
+          button{
+            &:nth-child(1){
+                font-size: 14px !important;
+            }
+            &:nth-child(2){
+                font-size: 14px !important;
+            }
+          }
+        }
+
+    }
+    @media (max-width:320px){
+        .textOne{
+            h1{
+                font-size: 30px !important;
+            }
+        }
+        .buttons{
+          button{
+            &:nth-child(1){
+                font-size: 14px !important;
+            }
+            &:nth-child(2){
+                font-size: 14px !important;
+            }
+          }
+        }
+
+    }
+    background-image: url(../../Assets/silde1.png);
+    width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+.textOne{
+    .p-bottpm{
+        color: #ffffffa8;
+    }
+    p{
+        color: #fff;
+        line-height: 2;
+        font-family: "Faculty Glyphic", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        
+
+    }
+    h1{
+        color: #fff;
+        margin-bottom: 30px;
+        font-family: "Faculty Glyphic", sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+        font-style: normal;
+        line-height: 1.4;
+        
+    }
+}
+
+.buttons{
+    display: flex;
+    gap: 20px !important;
+  button{
+    &:nth-child(1){
+        background-color: #3f271e;
+        padding: 20px;
+        border: 0;
+        outline: 0;
+        border-radius:10px;
+        color: #fff;
+        font-weight: bolder;
+        &:hover{
+            background-color: #3f271ea9;
+        }
+
+
+    }
+    &:nth-child(2){
+        background-color: #fff;
+        padding: 20px;
+        border: 0;
+        outline: 0;
+        border-radius:10px;
+        color: #000;
+        font-weight: bolder;
+        &:hover{
+            background-color: #ffffffaf;
+        }
+
+
+    }
+  }
+}
+
+}
+
